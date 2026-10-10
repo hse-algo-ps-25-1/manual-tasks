@@ -16,27 +16,31 @@ $$
 
 ## 1. Вывести рекуррентное соотношение для предложенной матрицы
 
-$x_n = 11 \cdot  
-\begin{vmatrix}      
-  11 & 2 & \cdots & 0 & 0 \\    
-  14 & 11 & \cdots & 0 & 0 \\    
-  \vdots & \vdots & \ddots & \vdots & \vdots  \\    
-  0 & 0 & \cdots & 11 & 2 \\    
-  0 & 0 & \cdots & 14 & 11     
- \end{vmatrix} - 2 \cdot 
-\begin{vmatrix}    
-  14 & 2 & \cdots & 0 & 0 \\    
-  0 & 11 & \cdots & 0 & 0 \\    
-  \vdots  & \vdots & \ddots & \vdots & \vdots  \\    
-  0 & 0 & \cdots & 11 & 2 \\    
-  0 & 0 & \cdots & 14 & 11     
- \end{vmatrix}  = 11 \cdot x_{n-1} - 2 \cdot 14 \cdot 
- \begin{vmatrix}      
-  11 & 2 & \cdots & 0 \\    
-  14 & \ddots & \ddots & \vdots  \\    
-  \vdots & \ddots & 11 & 2 \\    
-  0 & \cdots & 14 & 11     
- \end{vmatrix} = 11 \cdot x_{n-1} - 2 \cdot 14 \cdot x_{n-2} = 11 \cdot x_{n-1} - 28 \cdot x_{n-2} $
+$$
+x_n = 11 \cdot
+\begin{vmatrix}
+11 & 2 & \cdots & 0 & 0 \\\\
+14 & 11 & \cdots & 0 & 0 \\\\
+\vdots & \vdots & \ddots & \vdots & \vdots \\\\
+0 & 0 & \cdots & 11 & 2 \\\\
+0 & 0 & \cdots & 14 & 11
+\end{vmatrix} - 2 \cdot \begin{vmatrix}
+14 & 2 & \cdots & 0 & 0 \\\\
+0 & 11 & \cdots & 0 & 0 \\\\
+\vdots & \vdots & \ddots & \vdots & \vdots \\\\
+0 & 0 & \cdots & 11 & 2 \\\\
+0 & 0 & \cdots & 14 & 11
+\end{vmatrix} = 
+$$
+
+$$
+= 11 \cdot x_{n-1} - 2 \cdot 14 \cdot \begin{vmatrix}
+11 & 2 & \cdots & 0 \\\\
+14 & \ddots & \ddots & \vdots \\\\
+\vdots & \ddots & 11 & 2 \\\\
+0 & \cdots & 14 & 11
+\end{vmatrix} = 11 \cdot x_{n-1} - 2 \cdot 14 \cdot x_{n-2} = 11 \cdot x_{n-1} - 28 \cdot x_{n-2}
+$$
 
 <br> Получили линейное однородное рекуррентное соотношение с постоянными коэффициентами глубины 2.
 
@@ -62,11 +66,13 @@ x_n = \lambda^n
 $$
 
 После замены получим характеристическое уравнение
+
 $$
 \lambda^n = 11\cdot  \lambda^{n-1} - 28 \cdot \lambda^{n-2} 
 $$
 
 Поделим на наименьшее значение степени Лямбда: $\lambda^{n-2}$
+
 $$
 \lambda^2 - 11\cdot  \lambda + 28 = 0
 $$
@@ -75,6 +81,9 @@ $$
 
 $$
 \lambda_1 = 4 \\
+$$
+
+$$
 \lambda_2 = 7
 $$
 
@@ -128,4 +137,4 @@ $$
 = 657 710 813.
 $$
  ### Ответ:
-***Определитель ленточной матрицы порядка $10$ равен $657 710 813$.***
+Определитель ленточной матрицы порядка $10$ равен $657 710 813$.
