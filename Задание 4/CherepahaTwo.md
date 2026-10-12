@@ -38,16 +38,14 @@ $$
 Подставим его в рекуррентное соотношение, разделим обе части на $\lambda^{n-2}$ и упростим:
 
 $$
-\begin{gathered}
-\lambda^n = 2\lambda^{n-1} + 3\lambda^{n-2}, \\
-\frac{\lambda^n}{\lambda^{n-2}}
-=
-\frac{2\lambda^{n-1}}{\lambda^{n-2}}
-+
-\frac{3\lambda^{n-2}}{\lambda^{n-2}}, \\
-\lambda^2 = 2\lambda + 3, \\
-\lambda^2 - 2\lambda - 3 = 0.
-\end{gathered}
+\begin{aligned}
+&\lambda^n = 2\lambda^{n-1} + 3\lambda^{n-2}, \\
+&\frac{\lambda^n}{\lambda^{n-2}}
+= \frac{2\lambda^{n-1}}{\lambda^{n-2}}
++ \frac{3\lambda^{n-2}}{\lambda^{n-2}}, \\
+&\lambda^2 = 2\lambda + 3, \\
+&\lambda^2 - 2\lambda - 3 = 0.
+\end{aligned}
 $$
 
 Решим характеристическое уравнение по теореме Виета:
