@@ -45,7 +45,7 @@ $$
 \frac{2\lambda^{n-1}}{\lambda^{n-2}}
 +
 \frac{3\lambda^{n-2}}{\lambda^{n-2}}, \\
-\lambda^2 &= 2\lambda + 3, \\[4pt]
+\lambda^2 &= 2\lambda + 3, \\
 \lambda^2 - 2\lambda - 3 &= 0.
 \end{aligned}
 $$
@@ -55,7 +55,7 @@ $$
 $$
 \begin{aligned}
 \lambda_1 + \lambda_2 &= 2, \\
-\lambda_1\lambda_2 &= -3, \\[4pt]
+\lambda_1\lambda_2 &= -3, \\
 \lambda_1 &= 3,\qquad \lambda_2 = -1, \\
 3 + (-1) &= 2,\qquad 3\cdot(-1) = -3, \\
 \lambda_1 &\ne \lambda_2.
