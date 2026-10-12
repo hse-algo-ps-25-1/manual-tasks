@@ -45,8 +45,7 @@ x_n =
 0 & 0 & \cdots & 5 & 1 \\
 0 & 0 & \cdots & 6 & 5
 \end{vmatrix}
-}_{x_{n-1}}
-- 1 \cdot
+}_{x_{n-1}} - 1 \cdot
 \begin{vmatrix}
 6 & 1 & \cdots & 0 & 0 \\
 0 & 5 & \cdots & 0 & 0 \\
@@ -174,8 +173,7 @@ $$
 \begin{vmatrix}
 5 & 1 \\
 6 & 5
-\end{vmatrix}
-- 1 \cdot
+\end{vmatrix} - 1 \cdot
 \begin{vmatrix}
 6 & 1 \\
 0 & 5
