@@ -31,7 +31,7 @@ $$\lambda^n = 7 \cdot \lambda^{n-1} - 12\lambda^{n-2} \quad \Big| : \lambda^{n-2
 
 $$\lambda^2 = 7 \cdot \lambda - 12 = 0$$
 
-$$\lambda^2 - 7\lambda + 12 = 0 \quad \leftarrow \text{квадратное уравнение}$$
+$$\lambda^2 - 7\lambda + 12 = 0$$
 
 $$D = (-7)^2 - 4 \cdot 1 \cdot 12$$
 
