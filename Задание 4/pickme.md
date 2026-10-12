@@ -32,7 +32,7 @@ $$
 
 $$
 X_1 = 6, \qquad X_2 = 
-\begin{vmatrix} 6 & 5 \\ 1 & 6 
+\begin{vmatrix} 6 & 5 \\\\ 1 & 6 
 \end{vmatrix} 
 = 6 \cdot 6 - 1 \cdot 5 = 36 - 5 = 31
 $$
@@ -43,11 +43,11 @@ $$
 Получится:
 
 $$
-\lambda^n = 6\lambda^{n-1} - 5\lambda^{n-2} \\
-\lambda^2 = 6\lambda - 5 \\
-\lambda^2 - 6 \lambda + 5 = 0 \\
-\lambda^2 - \lambda - 5\lambda + 5 = 0 \\
-\lambda(\lambda - 1) - 5 (\lambda - 1) = 0 \\
+\lambda^n = 6\lambda^{n-1} - 5\lambda^{n-2} \\\\
+\lambda^2 = 6\lambda - 5 \\\\
+\lambda^2 - 6 \lambda + 5 = 0 \\\\
+\lambda^2 - \lambda - 5\lambda + 5 = 0 \\\\
+\lambda(\lambda - 1) - 5 (\lambda - 1) = 0 \\\\
 (\lambda - 1)(\lambda - 5) = 0
 $$
 Таким образом, корни 1 и 5.
@@ -63,41 +63,42 @@ $$
 
 $$
 \begin{cases}
-6 = A_1 + 5A_2 \\
+6 = A_1 + 5A_2 \\\\
 31 = A_1 + 25A_2
 \end{cases}
 =>
 \begin{cases}
-A_1 = 6 - 5A_2 \\
+A_1 = 6 - 5A_2 \\\\
 A_1 = 31 - 25A_2
-\end{cases}\\
+\end{cases}\\\\
 $$
 
 Откуда:
 
 $$
-6 - 5A_2 = 31 - 25A_2 \\
+6 - 5A_2 = 31 - 25A_2 \\\\
 A_2 = \frac{25}{20} = \frac{5}{4}
 $$
 
 Подставим в первое уравнение из системы:
 
 $$
-6 = A_1 + 5 \cdot \frac{5}{4} \\
-A_1 = 6 - \frac{25}{4} = \frac{24}{4} - \frac{25}{4}\\
+6 = A_1 + 5 \cdot \frac{5}{4} \\\\
+A_1 = 6 - \frac{25}{4} = \frac{24}{4} - \frac{25}{4}\\\\
 A_1 = -\frac{1}{4}
 $$
 
 Таким образом, уравнение принимает вид:
 
 $$
-X_n = -\frac{1}{4} \cdot 1^n  + \frac{5}{4} \cdot 5^n \\
-X_n = -\frac{1}{4} + \frac{5^n \cdot 5}{4} \\
-X_n = \frac{5^n \cdot 5 - 1}{4} \\
+X_n = -\frac{1}{4} \cdot 1^n  + \frac{5}{4} \cdot 5^n \\\\
+X_n = -\frac{1}{4} + \frac{5^n \cdot 5}{4} \\\\
+X_n = \frac{5^n \cdot 5 - 1}{4} \\\\
 X_n = \frac{5^{n+1} - 1}{4}
 $$
 ### Теперь можем рассчитать значение определителя заданного порядка:
 $$
 X_8 = \frac{5^{8 + 1} - 1}{4} = \frac{5^9 - 1}{4} = \frac{1 953 125 - 1}{4} = \frac{1 953 124}{4} = 488 281.
 $$
+
 Ответ: 488 281.
