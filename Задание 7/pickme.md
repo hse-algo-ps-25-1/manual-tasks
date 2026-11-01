@@ -18,9 +18,7 @@ graph LR
 $$
 \begin{aligned}
 a_n &= a_{n-1}, \\
-
 b_n &= b_{n-1} + c_{n-1}, \\
-
 c_n &= a_{n-1} + b_{n-1} + c_{n-1},
 \end{aligned}
 $$
@@ -92,9 +90,18 @@ $$
 Разделим обе части на $\lambda^{n-2}$:
 
 $$
-\lambda^2 - 3 \cdot \lambda + 2 = 0 \\
-\lambda^2 - \lambda - 2 \cdot \lambda + 2 = 0 \\
-\lambda \cdot (\lambda - 1) - 2 \cdot (\lambda - 1) = 0 \\
+\lambda^2 - 3 \cdot \lambda + 2 = 0
+$$
+
+$$
+\lambda^2 - \lambda - 2 \cdot \lambda + 2 = 0
+$$
+
+$$
+\lambda \cdot (\lambda - 1) - 2 \cdot (\lambda - 1) = 0 
+$$
+
+$$
 (\lambda - 1) \cdot (\lambda - 2) = 0
 $$
 
@@ -138,8 +145,14 @@ $A_1 = -1$
 Таким образом, уравнение принимает вид:
 
 $$
-b_n = -1 \cdot 1^n + \frac{2^n}{2} \\ 
-b_n = -1 + 2^{n-1} \\
+b_n = -1 \cdot 1^n + \frac{2^n}{2}
+$$
+
+$$
+b_n = -1 + 2^{n-1}
+$$
+
+$$
 b_n = 2^{n - 1} - 1
 $$
 
