@@ -17,8 +17,8 @@
 Пусть $t_1,\ldots,t_n$ – длительности заданий, $k$ – число исполнителей. Нижняя граница длительности равна максимуму из длительности самого длинного задания и средней загрузки. По формуле из лекции получаем
 
 $$
-T_{\mathrm{opt}}=\max\left\{t_1,\ldots,t_n,\frac{t_1+\cdots+t_n}{k}\right\}
-=\max\left\{16,8,7,6,5,4,3,3,\frac{52}{4}\right\}=16.
+T_{\mathrm{opt}}=\max\left\lbrace t_1,\ldots,t_n,\frac{t_1+\cdots+t_n}{k}\right\rbrace
+=\max\left\lbrace 16,8,7,6,5,4,3,3,\frac{52}{4}\right\rbrace=16.
 $$
 
 ### Построение расписания
