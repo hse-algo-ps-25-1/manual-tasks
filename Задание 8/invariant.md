@@ -94,8 +94,9 @@ config:
 ---
 gantt
     title Конвейерная задача
-    dateFormat X
-    axisFormat %s
+    dateFormat x
+    axisFormat %-L
+    tickInterval 5millisecond
     todayMarker off
     section Исполнитель 1
     D :d1, 0, 1
@@ -206,8 +207,9 @@ config:
 ---
 gantt
     title Ленточная стратегия
-    dateFormat X
-    axisFormat %s
+    dateFormat x
+    axisFormat %-L
+    tickInterval 1millisecond
     todayMarker off
     section Исполнитель 1
     A :a1, 0, 10
